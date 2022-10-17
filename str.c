@@ -15,7 +15,7 @@ int str(va_list string)
 	{
 		str = "(null)";
 	}
-	len = 0;
+	length = 0;
 	while (str[length] != '\0')
 		length = length + _putchar(str[length]);
 	return (length);
